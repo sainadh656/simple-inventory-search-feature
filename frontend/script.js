@@ -18,7 +18,7 @@ async function search() {
     return;
   }
 
-  const url = `http://localhost:5000/search?q=${q}&category=${category}&minPrice=${minPrice}&maxPrice=${maxPrice}`;
+  const url = `https://simple-inventory-search-feature.onrender.com/search?q=${q}&category=${category}&minPrice=${minPrice}&maxPrice=${maxPrice}`;
 
   const res = await fetch(url);
   const data = await res.json();
