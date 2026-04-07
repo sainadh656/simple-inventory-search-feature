@@ -1,9 +1,18 @@
 # Inventory Search Project
 
+## Tech Stack
+- Frontend: HTML, CSS, JavaScript
+- Backend: Node.js, Express.js
+- Data Source: Static JSON (in-memory array)
+
 ## Features
-- Search by product name (case-insensitive)
+- Search products by name (case-insensitive)
 - Filter by category
-- Filter by price range
+- Filter by price range (range slider)
+- Combine multiple filters
+- Display results in a clean list UI
+- Show "No results found" when empty
+- Mobile-responsive modern UI
 
 ## Search Logic
 Filters applied sequentially:
@@ -21,3 +30,7 @@ npm install
 node server.js
 
 Open frontend/index.html
+
+## Screenshots
+
+![App Screenshot](https://res.cloudinary.com/dzu98c3fj/image/upload/v1775582951/Screenshot_1.png)
