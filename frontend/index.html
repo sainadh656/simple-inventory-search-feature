@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inventory Search</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Inventory Search</h2>
+
+  <div class="card">
+
+    <input id="q" placeholder="Search products..." class="input"/>
+
+    <select id="category" class="input">
+      <option value="">All Categories</option>
+      <option>Electronics</option>
+      <option>Computers</option>
+      <option>Accessories</option>
+      <option>Storage</option>
+      <option>Furniture</option>
+    </select>
+
+    <div class="range-group">
+      <label>Min: ₹<span id="minValue">0</span></label>
+      <input type="range" id="minPrice" min="0" max="60000" value="0">
+    </div>
+
+    <div class="range-group">
+      <label>Max: ₹<span id="maxValue">60000</span></label>
+      <input type="range" id="maxPrice" min="0" max="60000" value="60000">
+    </div>
+
+    <button onclick="search()" class="btn">Search</button>
+
+  </div>
+
+  <div id="results" class="results"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
