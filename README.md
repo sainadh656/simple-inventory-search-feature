@@ -25,12 +25,18 @@ Filters applied sequentially:
 - Add pagination or database indexing for large datasets
 
 ## Run
-cd backend
-npm install
-node server.js
+- cd backend
+- npm install
+- node server.js
 
 Open frontend/index.html
 
 ## Screenshots
 
 ![App Screenshot](https://res.cloudinary.com/dzu98c3fj/image/upload/v1775582951/Screenshot_1.png)
+
+![App Screenshot](https://res.cloudinary.com/dzu98c3fj/image/upload/v1775582952/Screenshot_2.png)
+
+![App Screenshot](https://res.cloudinary.com/dzu98c3fj/image/upload/v1775582965/Screenshot_3.png)
+
+![App Screenshot](https://res.cloudinary.com/dzu98c3fj/image/upload/v1775582966/Screenshot_4.png)
